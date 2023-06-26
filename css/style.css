@@ -55,7 +55,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  margin-top: 20px;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -361,9 +360,8 @@ template {
 }
 
 .logo{
-  padding: 0;
-  height: 80%;
-  margin: -20px;
+  height: 90%;
+  margin: -40px;
 }
 
 h1, h2, h4, h6,
@@ -4038,16 +4036,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
 }
-
-.navbar-brand:hover, .navbar-brand:focus {
-  text-decoration: none;
+.nav-logo{
+  width: 120px;
+  height: 300px;
 }
 
 .navbar-nav {
